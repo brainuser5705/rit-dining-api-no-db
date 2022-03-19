@@ -1,6 +1,5 @@
 from bs4 import BeautifulSoup
 import requests
-import json
 
 # URLs to the dining menus
 SPECIAL_MENU_URL = 'https://www.rit.edu/fa/diningservices/daily-specials'
