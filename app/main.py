@@ -11,9 +11,3 @@ class WebScrape(Resource):
         return jsonify(webscrape.get_special_menu_json())
 
 api.add_resource(WebScrape, '/specials/webscrape')
-
-def main():
-    app.run(debug=True)
-
-if __name__ == '__main__':
-    main()
