@@ -10,7 +10,7 @@ class WebScrape(Resource):
     def get(self):
         return jsonify(webscrape.get_special_menu_json())
 
-api.add_resource(WebScrape, '/specials/webscrape')
+api.add_resource(WebScrape, '/specials')
 
 if __name__ == '__main__':
     app.run(threaded=True, port=5000)
